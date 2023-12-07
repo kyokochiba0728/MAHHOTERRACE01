@@ -2,18 +2,6 @@
   "sections": {
     "854b8f45-f60d-4eaa-8f97-e40117f08bdb": {
       "type": "image-banner",
-      "blocks": {
-        "8e7e9ee8-815d-4773-9298-c0f6bbe59a2f": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "8e7e9ee8-815d-4773-9298-c0f6bbe59a2f"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/arif-rasheed-Nq7Q7BIJbtE-unsplash.jpg",
         "image_overlay_opacity": 10,
@@ -34,7 +22,7 @@
         "template--16142776041639__87f4f2e6-efba-4518-b331-c2ba0335cd96-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "宮古島でちょっとのんびり暮らそう",
+            "heading": "miyakojoi",
             "heading_size": "h2"
           }
         },
