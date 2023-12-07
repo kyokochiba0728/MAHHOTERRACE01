@@ -1,1 +1,429 @@
-{"sections":{"854b8f45-f60d-4eaa-8f97-e40117f08bdb":{"type":"image-banner","settings":{"image":"shopify:\/\/shop_images\/arif-rasheed-Nq7Q7BIJbtE-unsplash.jpg","image_overlay_opacity":10,"image_height":"medium","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"87f4f2e6-efba-4518-b331-c2ba0335cd96":{"type":"rich-text","blocks":{"template--16142776041639__87f4f2e6-efba-4518-b331-c2ba0335cd96-heading-1":{"type":"heading","settings":{"heading":"宮古島でちょっとのんびり暮らそう","heading_size":"h2"}},"template--16142776041639__87f4f2e6-efba-4518-b331-c2ba0335cd96-text-1":{"type":"text","settings":{"text":"<p>いまの生活を飛び出して<\/p><p>宮古島の美しい海、自然、星空に会いにいこう<\/p><p>娯楽は多くはないけれど<\/p><p>仲間達と笑いあって過ごしたら<\/p><p>いままでとはすこし違う自分に気づけるはず<\/p><p>着飾らず、肩の力をぬいて暮らしながら次の可能性に繋げるコミュニティ<\/p><p>MAHHOTERRACEはそんなコリビングホステルです<\/p>"}}},"block_order":["template--16142776041639__87f4f2e6-efba-4518-b331-c2ba0335cd96-heading-1","template--16142776041639__87f4f2e6-efba-4518-b331-c2ba0335cd96-text-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}},"c7a99daf-6703-46d0-8174-e04c0350a4fc":{"type":"image-with-text","blocks":{"template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-heading-1":{"type":"heading","settings":{"heading":"現在、クラウドファンディング実施中！","heading_size":"h2"}},"template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-text-1":{"type":"text","settings":{"text":"<p>サポーターの方には返礼品として、施設で利用できるお得なチケットや、宮古島の特産品など多数ご用意しています。<\/p><p>応援コメントいただけると嬉しいです！<\/p>","text_style":"body"}},"template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-button-1":{"type":"button","settings":{"button_label":"応援する","button_link":"https:\/\/readyfor.jp\/projects\/134552\/preview","button_style_secondary":false}}},"block_order":["template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-heading-1","template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-text-1","template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-button-1"],"settings":{"height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"85381eb7-78e7-4031-95db-f5709d9ee7ce":{"type":"image-banner","blocks":{"template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-heading-1":{"type":"heading","settings":{"heading":"Image banner","heading_size":"h1"}},"template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-text-1":{"type":"text","settings":{"text":"Give customers details about the banner image(s) or content on the template.","text_style":"body"}},"template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-buttons-1":{"type":"buttons","settings":{"button_label_1":"Button label","button_link_1":"","button_style_secondary_1":false,"button_label_2":"Button label","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-heading-1","template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-text-1","template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-buttons-1"],"settings":{"image_overlay_opacity":0,"image_height":"medium","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"7d325fd7-cc66-48b8-8a04-c0ae1103da1f":{"type":"multicolumn","blocks":{"template--16142776041639__7d325fd7-cc66-48b8-8a04-c0ae1103da1f-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/teacup_line.svg","title":"カフェ","text":"","link_label":"","link":""}},"template--16142776041639__7d325fd7-cc66-48b8-8a04-c0ae1103da1f-column-3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/plugin_line.svg","title":"コワーキングスペース","text":"","link_label":"","link":""}},"e0af683a-59de-42fe-9e7f-006ea0483110":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/wifi_line.svg","title":"WIFI","text":"","link_label":"","link":""}},"96b9d398-71e5-4389-afed-373bce688dba":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/sofa_line.svg","title":"リビング","text":"","link_label":"","link":""}},"b9b4ba43-1263-4d36-9e83-0db4e22bbb95":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/fork_spoon_line.svg","title":"キッチン","text":"","link_label":"","link":""}},"89e9077b-85ae-462d-9fc6-27cdb018e6ef":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/tv_2_line.svg","title":"TV","text":"","link_label":"","link":""}},"a61437ec-973a-47a7-a16a-ade6a1bd1d58":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/shower_FILL0_wght400_GRAD0_opsz24.svg","title":"シャワー","text":"","link_label":"","link":""}},"036b1628-5a03-426d-8b03-c1fd796d348c":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/bath_line.svg","title":"バスタブ","text":"","link_label":"","link":""}},"8fb5c8e0-27de-4fc9-a7ab-d6ffa6331ece":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/hairdryer.svg","title":"ドライヤー","text":"","link_label":"","link":""}},"ce36d5f5-bf70-4270-8392-8f5cf63aab36":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/kitchen_FILL0_wght400_GRAD0_opsz24.svg","title":"冷蔵庫","text":"","link_label":"","link":""}},"48f995cf-c95a-4c24-8b8f-5e782ed97f9e":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/wash_machine_line.svg","title":"洗濯・乾燥機","text":"","link_label":"","link":""}},"1d0614aa-35c4-40b6-9441-9a5f37ab348d":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/parking_line.svg","title":"駐車場","text":"","link_label":"","link":""}}},"block_order":["template--16142776041639__7d325fd7-cc66-48b8-8a04-c0ae1103da1f-column-1","template--16142776041639__7d325fd7-cc66-48b8-8a04-c0ae1103da1f-column-3","e0af683a-59de-42fe-9e7f-006ea0483110","96b9d398-71e5-4389-afed-373bce688dba","b9b4ba43-1263-4d36-9e83-0db4e22bbb95","89e9077b-85ae-462d-9fc6-27cdb018e6ef","a61437ec-973a-47a7-a16a-ade6a1bd1d58","036b1628-5a03-426d-8b03-c1fd796d348c","8fb5c8e0-27de-4fc9-a7ab-d6ffa6331ece","ce36d5f5-bf70-4270-8392-8f5cf63aab36","48f995cf-c95a-4c24-8b8f-5e782ed97f9e","1d0614aa-35c4-40b6-9441-9a5f37ab348d"],"settings":{"title":"MAHHOTERRACEで利用できるもの","heading_size":"h2","image_width":"third","image_ratio":"adapt","columns_desktop":6,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"308150bf-454f-44b3-859c-51870ccaabd2":{"type":"collapsible-content","blocks":{"template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-1":{"type":"collapsible_row","settings":{"heading":"Q. チェックイン・チェックアウト時間は何時ですか？","icon":"none","row_content":"<p>A. チェックイン 15：00～（最終20:00）\/チェックアウト 11:00です。お荷物はチェックイン前でもお預かり可能です。<\/p>","page":""}},"template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-2":{"type":"collapsible_row","settings":{"heading":"Q. フロント営業時間は何時までですか？","icon":"none","row_content":"<p>A. フロント営業時間は7:00~20:00です。   送迎などのため、営業時間内に一時不在になる場合もあります。<\/p>","page":""}},"template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-3":{"type":"collapsible_row","settings":{"heading":"Q. 送迎をお願いできますか？","icon":"none","row_content":"<p>A. 事前予約の上、ご利用可能です。（オーナー稼働状況により対応できない場合があります）予約はお問い合わせよりお願いいたします。送迎料金・その他アクセス方法の確認はこちら<\/p>","page":""}},"template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-4":{"type":"collapsible_row","settings":{"heading":"Q. 門限はありますか？","icon":"none","row_content":"<p>A. チェックインがお済みの方は24時間出入り可能です。 （チェックイン時に玄関の暗証番号をを伝えします）<\/p>","page":""}},"6a82641b-8382-417c-a26a-affcf72e564a":{"type":"collapsible_row","settings":{"heading":"Q. 消灯時間は何時ですか？","icon":"none","row_content":"<p>A. 消灯は22：00です。コワーキングスペースは24時間ご利用いただけます。<\/p>","page":""}},"56599190-e75e-4c69-a9d0-8b3ad2e11113":{"type":"collapsible_row","settings":{"heading":"Q. 寝巻きはありますか？","icon":"none","row_content":"<p>A.寝巻き、浴衣類のご用意はありません。   共有スペースでお過ごしの際は部屋着等をご着用ください。<\/p>","page":""}},"8e0d15a6-d40e-4892-bd62-32ad099fffe0":{"type":"collapsible_row","settings":{"heading":"Q. たばこは吸えますか？","icon":"none","row_content":"<p>A. 館内禁煙です。喫煙される方は施設前の喫煙スペースをご利用ください。<\/p>","page":""}},"b7e7b56c-9b6b-4c2d-a057-576b54ad103e":{"type":"collapsible_row","settings":{"heading":"Q. 禁止事項はありますか？","icon":"none","row_content":"<p>A. 深夜の電話・大きな声での会話・多量飲酒は他のお客様や近隣の方のご迷惑になるため、ご配慮お願いいたします。<\/p>","page":""}},"01594a95-a40c-4523-9d38-13def265a258":{"type":"collapsible_row","settings":{"heading":"Q. 長期滞在者向けのプランはありますか？","icon":"none","row_content":"<p>A. 短・長期滞在者向けプランにご用意があります。   詳細はお問い合わせよりご連絡ください。<\/p>","page":""}}},"block_order":["template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-1","template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-2","template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-3","template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-4","6a82641b-8382-417c-a26a-affcf72e564a","56599190-e75e-4c69-a9d0-8b3ad2e11113","8e0d15a6-d40e-4892-bd62-32ad099fffe0","b7e7b56c-9b6b-4c2d-a057-576b54ad103e","01594a95-a40c-4523-9d38-13def265a258"],"settings":{"caption":"","heading":"F A Q","heading_size":"h1","heading_alignment":"center","layout":"none","color_scheme":"","container_color_scheme":"","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36}}},"order":["854b8f45-f60d-4eaa-8f97-e40117f08bdb","87f4f2e6-efba-4518-b331-c2ba0335cd96","c7a99daf-6703-46d0-8174-e04c0350a4fc","85381eb7-78e7-4031-95db-f5709d9ee7ce","7d325fd7-cc66-48b8-8a04-c0ae1103da1f","308150bf-454f-44b3-859c-51870ccaabd2"]}
+{
+  "sections": {
+    "854b8f45-f60d-4eaa-8f97-e40117f08bdb": {
+      "type": "image-banner",
+      "blocks": {
+        "8e7e9ee8-815d-4773-9298-c0f6bbe59a2f": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "8e7e9ee8-815d-4773-9298-c0f6bbe59a2f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/arif-rasheed-Nq7Q7BIJbtE-unsplash.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "87f4f2e6-efba-4518-b331-c2ba0335cd96": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16142776041639__87f4f2e6-efba-4518-b331-c2ba0335cd96-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "宮古島でちょっとのんびり暮らそう",
+            "heading_size": "h2"
+          }
+        },
+        "template--16142776041639__87f4f2e6-efba-4518-b331-c2ba0335cd96-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>いまの生活を飛び出して<\/p><p>宮古島の美しい海、自然、星空に会いにいこう<\/p><p>娯楽は多くはないけれど<\/p><p>仲間達と笑いあって過ごしたら<\/p><p>いままでとはすこし違う自分に気づけるはず<\/p><p>着飾らず、肩の力をぬいて暮らしながら次の可能性に繋げるコミュニティ<\/p><p>MAHHOTERRACEはそんなコリビングホステルです<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16142776041639__87f4f2e6-efba-4518-b331-c2ba0335cd96-heading-1",
+        "template--16142776041639__87f4f2e6-efba-4518-b331-c2ba0335cd96-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "c7a99daf-6703-46d0-8174-e04c0350a4fc": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "現在、クラウドファンディング実施中！",
+            "heading_size": "h2"
+          }
+        },
+        "template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>サポーターの方には返礼品として、施設で利用できるお得なチケットや、宮古島の特産品など多数ご用意しています。<\/p><p>応援コメントいただけると嬉しいです！<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "応援する",
+            "button_link": "https:\/\/readyfor.jp\/projects\/134552\/preview",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-heading-1",
+        "template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-text-1",
+        "template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "85381eb7-78e7-4031-95db-f5709d9ee7ce": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-heading-1",
+        "template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-text-1",
+        "template--16142776041639__85381eb7-78e7-4031-95db-f5709d9ee7ce-buttons-1"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "7d325fd7-cc66-48b8-8a04-c0ae1103da1f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16142776041639__7d325fd7-cc66-48b8-8a04-c0ae1103da1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/teacup_line.svg",
+            "title": "カフェ",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16142776041639__7d325fd7-cc66-48b8-8a04-c0ae1103da1f-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/plugin_line.svg",
+            "title": "コワーキングスペース",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e0af683a-59de-42fe-9e7f-006ea0483110": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wifi_line.svg",
+            "title": "WIFI",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "96b9d398-71e5-4389-afed-373bce688dba": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sofa_line.svg",
+            "title": "リビング",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b9b4ba43-1263-4d36-9e83-0db4e22bbb95": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fork_spoon_line.svg",
+            "title": "キッチン",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "89e9077b-85ae-462d-9fc6-27cdb018e6ef": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tv_2_line.svg",
+            "title": "TV",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a61437ec-973a-47a7-a16a-ade6a1bd1d58": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shower_FILL0_wght400_GRAD0_opsz24.svg",
+            "title": "シャワー",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "036b1628-5a03-426d-8b03-c1fd796d348c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bath_line.svg",
+            "title": "バスタブ",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8fb5c8e0-27de-4fc9-a7ab-d6ffa6331ece": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hairdryer.svg",
+            "title": "ドライヤー",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "ce36d5f5-bf70-4270-8392-8f5cf63aab36": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen_FILL0_wght400_GRAD0_opsz24.svg",
+            "title": "冷蔵庫",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "48f995cf-c95a-4c24-8b8f-5e782ed97f9e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wash_machine_line.svg",
+            "title": "洗濯・乾燥機",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1d0614aa-35c4-40b6-9441-9a5f37ab348d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/parking_line.svg",
+            "title": "駐車場",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16142776041639__7d325fd7-cc66-48b8-8a04-c0ae1103da1f-column-1",
+        "template--16142776041639__7d325fd7-cc66-48b8-8a04-c0ae1103da1f-column-3",
+        "e0af683a-59de-42fe-9e7f-006ea0483110",
+        "96b9d398-71e5-4389-afed-373bce688dba",
+        "b9b4ba43-1263-4d36-9e83-0db4e22bbb95",
+        "89e9077b-85ae-462d-9fc6-27cdb018e6ef",
+        "a61437ec-973a-47a7-a16a-ade6a1bd1d58",
+        "036b1628-5a03-426d-8b03-c1fd796d348c",
+        "8fb5c8e0-27de-4fc9-a7ab-d6ffa6331ece",
+        "ce36d5f5-bf70-4270-8392-8f5cf63aab36",
+        "48f995cf-c95a-4c24-8b8f-5e782ed97f9e",
+        "1d0614aa-35c4-40b6-9441-9a5f37ab348d"
+      ],
+      "settings": {
+        "title": "MAHHOTERRACEで利用できるもの",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "308150bf-454f-44b3-859c-51870ccaabd2": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q. チェックイン・チェックアウト時間は何時ですか？",
+            "icon": "none",
+            "row_content": "<p>A. チェックイン 15：00～（最終20:00）\/チェックアウト 11:00です。お荷物はチェックイン前でもお預かり可能です。<\/p>",
+            "page": ""
+          }
+        },
+        "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q. フロント営業時間は何時までですか？",
+            "icon": "none",
+            "row_content": "<p>A. フロント営業時間は7:00~20:00です。   送迎などのため、営業時間内に一時不在になる場合もあります。<\/p>",
+            "page": ""
+          }
+        },
+        "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q. 送迎をお願いできますか？",
+            "icon": "none",
+            "row_content": "<p>A. 事前予約の上、ご利用可能です。（オーナー稼働状況により対応できない場合があります）予約はお問い合わせよりお願いいたします。送迎料金・その他アクセス方法の確認はこちら<\/p>",
+            "page": ""
+          }
+        },
+        "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q. 門限はありますか？",
+            "icon": "none",
+            "row_content": "<p>A. チェックインがお済みの方は24時間出入り可能です。 （チェックイン時に玄関の暗証番号をを伝えします）<\/p>",
+            "page": ""
+          }
+        },
+        "6a82641b-8382-417c-a26a-affcf72e564a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q. 消灯時間は何時ですか？",
+            "icon": "none",
+            "row_content": "<p>A. 消灯は22：00です。コワーキングスペースは24時間ご利用いただけます。<\/p>",
+            "page": ""
+          }
+        },
+        "56599190-e75e-4c69-a9d0-8b3ad2e11113": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q. 寝巻きはありますか？",
+            "icon": "none",
+            "row_content": "<p>A.寝巻き、浴衣類のご用意はありません。   共有スペースでお過ごしの際は部屋着等をご着用ください。<\/p>",
+            "page": ""
+          }
+        },
+        "8e0d15a6-d40e-4892-bd62-32ad099fffe0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q. たばこは吸えますか？",
+            "icon": "none",
+            "row_content": "<p>A. 館内禁煙です。喫煙される方は施設前の喫煙スペースをご利用ください。<\/p>",
+            "page": ""
+          }
+        },
+        "b7e7b56c-9b6b-4c2d-a057-576b54ad103e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q. 禁止事項はありますか？",
+            "icon": "none",
+            "row_content": "<p>A. 深夜の電話・大きな声での会話・多量飲酒は他のお客様や近隣の方のご迷惑になるため、ご配慮お願いいたします。<\/p>",
+            "page": ""
+          }
+        },
+        "01594a95-a40c-4523-9d38-13def265a258": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q. 長期滞在者向けのプランはありますか？",
+            "icon": "none",
+            "row_content": "<p>A. 短・長期滞在者向けプランにご用意があります。   詳細はお問い合わせよりご連絡ください。<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-1",
+        "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-2",
+        "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-3",
+        "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-4",
+        "6a82641b-8382-417c-a26a-affcf72e564a",
+        "56599190-e75e-4c69-a9d0-8b3ad2e11113",
+        "8e0d15a6-d40e-4892-bd62-32ad099fffe0",
+        "b7e7b56c-9b6b-4c2d-a057-576b54ad103e",
+        "01594a95-a40c-4523-9d38-13def265a258"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "F A Q",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "854b8f45-f60d-4eaa-8f97-e40117f08bdb",
+    "87f4f2e6-efba-4518-b331-c2ba0335cd96",
+    "c7a99daf-6703-46d0-8174-e04c0350a4fc",
+    "85381eb7-78e7-4031-95db-f5709d9ee7ce",
+    "7d325fd7-cc66-48b8-8a04-c0ae1103da1f",
+    "308150bf-454f-44b3-859c-51870ccaabd2"
+  ]
+}
