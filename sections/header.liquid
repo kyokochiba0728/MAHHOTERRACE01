@@ -56,8 +56,8 @@
   }
 
   .list-menu--inline {
-    display: inline-flex;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
   }
 
   summary.list-menu__item {
@@ -107,6 +107,88 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  @media screen and (min-width: 990px) {
+    .header {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  /*宿泊予約ボタン*/
+  @media screen and (min-width: 990px){
+    .btn-booking {
+    width: 175px;
+    height: 54px;
+    padding-top: 14px;
+    text-align: center;
+    margin-right: 16px;
+    display: inline-block;
+    color:#fff;
+    border-radius:30px;
+    text-decoration: none;
+    outline: none;
+    background: linear-gradient(270deg, #369CCB 0%, #0C78D1 25%, #006F98 51%, #11C1CE 100%);
+    background-position: 1% 50%;
+    background-size: 200% auto;
+    transition: all 0.3s ease-out;
+}
+
+.btn-booking:hover {
+    color: #fff;
+    background-position: 99% 50%;
+}
+
+.btn-booking span {
+  font-size: 16px;
+  text-align: center;
+  
+}
+
+
+  }
+ 
+  /*お問い合わせボタン*/
+  @media screen and (min-width: 990px){
+    .btn-contact {
+    /*ボタンの形状*/
+    width: 175px;
+    height: 54px;
+    padding-top: 14px;
+    display: inline-block;
+    color:#fff;
+    border-radius:30px;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    /*背景の色と形状*/
+    background: linear-gradient(270deg, #369CCB 0%, #0C78D1 25%, #006F98 51%, #11C1CE 100%);
+    background-position: 1% 50%;
+    background-size: 200% auto;
+    /*アニメーションの指定*/
+    transition: all 0.3s ease-out;
+}
+
+/*hoverした際の、背景の場所とテキスト色の変更*/
+.btn-contact:hover {
+    color: #fff;
+    background-position: 99% 50%;
+}
+
+.btn-contact span {
+  font-size: 16px;
+  text-align: center; 
+}
+  }
+
+  @media screen and (max-width: 990px) {
+  .btn-booking span, .btn-contact span {
+    display: none;
+  }
+}
+
+
+
 {%- endstyle -%}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
@@ -186,8 +268,10 @@
                   preload: true
                 }}
               </div>
+              
+              
             {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
+              <span class="h2"></span>
             {%- endif -%}
           </a>
       {%- if request.page_type == 'index' -%}
@@ -227,7 +311,7 @@
                 }}
               </div>
             {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
+              <span class="h2"></span>
             {%- endif -%}
           </a>
       {%- if request.page_type == 'index' -%}
@@ -317,6 +401,11 @@
         {%- endcase -%}
       {%- endfor -%}
 
+      <a href="" class="btn btn-booking"><span>宿泊予約</span></a>
+      <a href="" class="btn btn-contact"><span>お問い合わせ</span></a>
+
+    {% comment %}
+        
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
@@ -335,6 +424,7 @@
           </div>
         {%- endif -%}
       </a>
+    {% endcomment %}
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
