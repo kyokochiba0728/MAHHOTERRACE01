@@ -8,8 +8,8 @@
         "7f32045d-4637-443f-950b-3d76e803f592": {
           "type": "announcement",
           "settings": {
-            "text": "2025年2月1日オープン予定◇現在クラウドファンディング挑戦中！",
-            "link": ""
+            "text": "2025年2月1日オープン予定！現在クラウドファンディング挑戦中！",
+            "link": "https:\/\/readyfor.jp\/projects\/134552\/preview?preview_token=ed963d4620e6b0711f60f02be0fb2f6a562cf8bb"
           }
         }
       },
@@ -17,8 +17,8 @@
         "7f32045d-4637-443f-950b-3d76e803f592"
       ],
       "settings": {
-        "color_scheme": "accent-2",
-        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,
         "change_slides_speed": 5,

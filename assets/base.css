@@ -94,7 +94,7 @@ html.no-js .no-js-hidden {
 }
 
 .page-width {
-  max-width: var(--page-width);
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -113,8 +113,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 }
 
 .utility-bar__grid.page-width {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 @media screen and (min-width: 750px) {
@@ -124,8 +124,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
   .header.page-width,
   .utility-bar__grid.page-width {
-    padding-left: 3.2rem;
-    padding-right: 3.2rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .page-width--narrow {
@@ -143,8 +143,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 @media screen and (min-width: 990px) {
   .header:not(.drawer-menu).page-width {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .page-width--narrow {
@@ -157,6 +157,11 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
     padding: 0 5rem;
   }
 }
+
+
+
+
+
 
 .isolate {
   position: relative;
@@ -2174,14 +2179,15 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .announcement-bar,
 .announcement-bar__announcement {
-  color: rgb(var(--color-foreground));
+  background-color: #00A9AC;
   width: 100%;
-  height: 100%;
+  height: 73px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
   grid-area: announcements;
+
 }
 
 .announcement-bar .slider--everywhere {
@@ -2203,12 +2209,12 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .announcement-bar .slider-button--next {
-  margin-right: -1.5rem;
+  margin-right: 0;
   min-width: 44px;
 }
 
 .announcement-bar .slider-button--prev {
-  margin-left: -1.5rem;
+  margin-left: 0;
   min-width: 44px;
 }
 
@@ -2237,8 +2243,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 @media screen and (min-width: 990px) {
   body:has(.section-header .header:not(.drawer-menu)) .utility-bar .page-width {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .announcement-bar-slider {
@@ -2273,6 +2279,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .announcement-bar__message {
   text-align: center;
+  font-size: 17px;
+  color: #ffffff;
   padding: 1rem 0;
   margin: 0;
   letter-spacing: 0.1rem;
@@ -2505,7 +2513,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   }
 }
 
-@media screen and (min-width: 990px) {
+ {
   .header--middle-left .header__heading-link,
   .header--top-left .header__heading-link {
     margin-left: -0.75rem;
@@ -2776,17 +2784,18 @@ details[open] > .header__submenu {
 .header__inline-menu {
   margin-left: -1.2rem;
   grid-area: navigation;
-  display: none;
+  display: none;z
 }
 
 .header--top-center .header__inline-menu,
 .header--top-center .header__heading-link {
-  margin-left: 0;
+  margin-left: ;
 }
 
 @media screen and (min-width: 990px) {
   .header__inline-menu {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .header--top-center .header__inline-menu {
@@ -2900,6 +2909,7 @@ header-menu > details,
 details-disclosure > details {
   position: relative;
 }
+
 
 @keyframes animateMenuOpen {
   0% {
