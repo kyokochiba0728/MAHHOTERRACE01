@@ -158,7 +158,12 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   }
 }
 
-
+.header__active-menu-item {
+  text-decoration: unset !important;
+}
+.header__menu-item:hover span {
+  text-decoration: unset !important;
+}
 
 
 
@@ -503,13 +508,35 @@ h6:empty {
   display: inline-block;
   border: none;
   box-shadow: none;
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  text-decoration: unset !important;
   color: rgb(var(--color-link));
   background-color: transparent;
   font-size: 1.4rem;
   font-family: inherit;
 }
+
+.announcement-message-text {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.announcement-message-text {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 1px;
+	background: #2196F3;
+	transition: all 0.3s ease 0s;
+}
+.announcement-message-text {
+	cursor: pointer;
+}
+.announcement-message-text::after {
+	width: 100%;
+}
+ 
 
 .link--text {
   color: rgb(var(--color-foreground));
@@ -1278,6 +1305,8 @@ button.shopify-payment-button__button--unbranded {
 .customer button:after,
 .shopify-payment-button__button--unbranded:after {
   content: '';
+  background: ;
+  font: #ffffff;
   position: absolute;
   top: var(--buttons-border-width);
   right: var(--buttons-border-width);
@@ -2279,7 +2308,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .announcement-bar__message {
   text-align: center;
-  font-size: 17px;
+  font-size: 18px;
   color: #ffffff;
   padding: 1rem 0;
   margin: 0;
@@ -3521,3 +3550,5 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+
