@@ -1,9 +1,19 @@
 {
   "sections": {
-    "605e7d54-a997-4cc2-ab76-81fb51c6784f": {
-      "type": "video-auto",
+    "854b8f45-f60d-4eaa-8f97-e40117f08bdb": {
+      "type": "image-banner",
       "settings": {
-        "video": "shopify:\/\/files\/videos\/38991_1280x720_1e5195eb-7770-4b30-b9f5-31d2c6541131.mp4"
+        "image": "shopify:\/\/shop_images\/arif-rasheed-Nq7Q7BIJbtE-unsplash.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "87f4f2e6-efba-4518-b331-c2ba0335cd96": {
@@ -32,7 +42,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 80,
+        "padding_top": 40,
         "padding_bottom": 52
       }
     },
@@ -42,7 +52,7 @@
         "template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "クラウドファンディング実施中！",
+            "heading": "現在、クラウドファンディング実施中！",
             "heading_size": "h2"
           }
         },
@@ -397,7 +407,7 @@
     }
   },
   "order": [
-    "605e7d54-a997-4cc2-ab76-81fb51c6784f",
+    "854b8f45-f60d-4eaa-8f97-e40117f08bdb",
     "87f4f2e6-efba-4518-b331-c2ba0335cd96",
     "c7a99daf-6703-46d0-8174-e04c0350a4fc",
     "85381eb7-78e7-4031-95db-f5709d9ee7ce",

@@ -120,15 +120,15 @@
     .btn-booking {
     width: 175px;
     height: 54px;
-    padding-top: 14px;
+    padding-top: 13px;
     text-align: center;
     margin-right: 16px;
     display: inline-block;
     color:#fff;
-    border-radius:30px;
+    border-radius:50px;
     text-decoration: none;
     outline: none;
-    background: linear-gradient(270deg, #369CCB 0%, #0C78D1 25%, #006F98 51%, #11C1CE 100%);
+    background: linear-gradient(270deg,  #006F98 51%, #11C1CE 100%);
     background-position: 1% 50%;
     background-size: 200% auto;
     transition: all 0.3s ease-out;
@@ -136,13 +136,13 @@
 
 .btn-booking:hover {
     color: #fff;
-    background-position: 99% 50%;
+    opacity: 0.8;
+    
 }
 
 .btn-booking span {
   font-size: 16px;
-  text-align: center;
-  
+  padding-left: 8px;
 }
 
 
@@ -154,30 +154,31 @@
     /*ボタンの形状*/
     width: 175px;
     height: 54px;
-    padding-top: 14px;
+    padding-top: 12px;
+    border:2px solid #006F98;
+    color: #006F98 ;
+    text-align: center;
     display: inline-block;
-    color:#fff;
-    border-radius:30px;
+    border-radius:50px;
     text-decoration: none;
     outline: none;
-    text-align: center;
+
     /*背景の色と形状*/
-    background: linear-gradient(270deg, #369CCB 0%, #0C78D1 25%, #006F98 51%, #11C1CE 100%);
-    background-position: 1% 50%;
-    background-size: 200% auto;
     /*アニメーションの指定*/
     transition: all 0.3s ease-out;
 }
 
 /*hoverした際の、背景の場所とテキスト色の変更*/
 .btn-contact:hover {
-    color: #fff;
-    background-position: 99% 50%;
+    /*ボタンの形状*/
+    opacity: 0.5;
+
 }
 
 .btn-contact span {
   font-size: 16px;
-  text-align: center; 
+  padding-left: 8px;
+  
 }
   }
 
@@ -403,6 +404,7 @@
 
       <a href="" class="btn btn-booking"><span>宿泊予約</span></a>
       <a href="" class="btn btn-contact"><span>お問い合わせ</span></a>
+      
 
     {% comment %}
         
