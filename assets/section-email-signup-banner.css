@@ -77,6 +77,8 @@
   overflow: hidden;
 }
 
+
+
 @media screen and (max-width: 749px) {
   .banner--mobile-content-align-left .newsletter-form__message {
     justify-content: flex-start;

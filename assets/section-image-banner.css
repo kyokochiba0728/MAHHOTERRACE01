@@ -4,6 +4,18 @@
   flex-direction: column;
 }
 
+@media screen and (min-width: 749px) {
+  .banner {
+    margin: 0 50px 0 50px;
+  }
+  }
+
+@media screen and (max-width: 749px) {
+  .banner {
+    margin: 0 50px 0 50px;
+  }
+  }
+
 .banner__box {
   text-align: center;
 }
