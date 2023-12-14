@@ -25,19 +25,27 @@
             "heading": "",
             "menu": "footer"
           }
+        },
+        "5c671453-30e0-488c-84bd-0bd26120d1f9": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "link-list"
+          }
         }
       },
       "block_order": [
         "c0a0fd70-3ad6-4255-b2b2-ea032393949a",
         "1eef597a-a820-4e0e-892a-8c9ebc01e9d3",
-        "f9aae83a-c45c-4308-931d-600ab28de800"
+        "f9aae83a-c45c-4308-931d-600ab28de800",
+        "5c671453-30e0-488c-84bd-0bd26120d1f9"
       ],
       "settings": {
         "color_scheme": "inverse",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
-        "show_social": true,
+        "show_social": false,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
