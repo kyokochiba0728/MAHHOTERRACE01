@@ -11,10 +11,19 @@
             "heading": "",
             "menu": "footer"
           }
+        },
+        "c0a0fd70-3ad6-4255-b2b2-ea032393949a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo1_white.svg",
+            "image_width": 110,
+            "alignment": ""
+          }
         }
       },
       "block_order": [
-        "f9aae83a-c45c-4308-931d-600ab28de800"
+        "f9aae83a-c45c-4308-931d-600ab28de800",
+        "c0a0fd70-3ad6-4255-b2b2-ea032393949a"
       ],
       "settings": {
         "color_scheme": "inverse",
