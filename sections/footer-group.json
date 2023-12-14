@@ -5,13 +5,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "f9aae83a-c45c-4308-931d-600ab28de800": {
-          "type": "link_list",
-          "settings": {
-            "heading": "",
-            "menu": "footer"
-          }
-        },
         "c0a0fd70-3ad6-4255-b2b2-ea032393949a": {
           "type": "image",
           "settings": {
@@ -19,11 +12,25 @@
             "image_width": 110,
             "alignment": ""
           }
+        },
+        "1eef597a-a820-4e0e-892a-8c9ebc01e9d3": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "f9aae83a-c45c-4308-931d-600ab28de800": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
-        "f9aae83a-c45c-4308-931d-600ab28de800",
-        "c0a0fd70-3ad6-4255-b2b2-ea032393949a"
+        "c0a0fd70-3ad6-4255-b2b2-ea032393949a",
+        "1eef597a-a820-4e0e-892a-8c9ebc01e9d3",
+        "f9aae83a-c45c-4308-931d-600ab28de800"
       ],
       "settings": {
         "color_scheme": "inverse",
