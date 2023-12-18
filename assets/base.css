@@ -1855,7 +1855,7 @@ details[open] > .share-button__fallback {
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
-  min-height: 10rem;
+  min-height: 20rem;
   resize: none;
 }
 
@@ -3651,7 +3651,15 @@ details-disclosure > details {
   padding: 0;
 }
 
-.rich-text__text-top {
-  
+.select-field {
+  height: 47px;
+  padding-left: 10px;
+  border-radius: var(--inputs-radius-outset);
+  box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset)
+    var(--inputs-shadow-blur-radius) rgba(var(--color-shadow), var(--inputs-shadow-opacity));
+  z-index: -1;
 }
 
+.main-page-title page-title {
+  font-size: 24px;
+}
