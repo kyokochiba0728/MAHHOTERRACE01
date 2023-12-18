@@ -86,8 +86,9 @@
     "85381eb7-78e7-4031-95db-f5709d9ee7ce": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/mahotera-insta-banner_16b24093-78c9-4f89-a92d-8cefd2bafbd8.png",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
