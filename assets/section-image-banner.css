@@ -6,19 +6,23 @@
 
 @media screen and (min-width: 749px) {
   .banner {
-    margin: 0 50px 0 50px;
+    margin: 90px 50px 0 50px;
   }
   }
 
 @media screen and (max-width: 749px) {
   .banner {
-    margin: 0 50px 0 50px;
+    margin: 0 15px 0 15px;
   }
   }
 
+ 
 .banner__box {
   text-align: center;
 }
+
+
+
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
 .banner__box.gradient {

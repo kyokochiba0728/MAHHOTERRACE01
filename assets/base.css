@@ -173,6 +173,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   z-index: 0;
 }
 
+
 .section + .section {
   margin-top: var(--spacing-sections-mobile);
 }
@@ -630,6 +631,10 @@ details > * {
   --ease-out-slow: cubic-bezier(0, 0, 0.3, 1);
   --animation-slide-in: slideIn var(--duration-extra-long) var(--ease-out-slow) forwards;
   --animation-fade-in: fadeIn var(--duration-extra-long) var(--ease-out-slow);
+}
+
+.multicolumn-text {
+  font-size: 16px;
 }
 
 .underlined-link,
@@ -3592,4 +3597,61 @@ details-disclosure > details {
   }
 }
 
+.tittle-text {
+  padding: 64px 0 80px 0;
+}
+
+.copy-text {
+  padding-top: 90px;
+}
+
+.h2 {
+  margin: 0;
+}
+
+.page-width banner-full {
+  padding: 90px 0 70px 0;
+}
+
+@media screen and (min-width: 750px){
+  .banner-item  {
+    padding-top: 100px;
+  }
+
+}
+
+.multicolumn-tittle p {
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  padding: 90px 0 70px 0;
+}
+
+
+@media screen and (min-width: 750px){
+  .column-width   {
+    padding: 0 90px 0 90px;
+  }
+
+}
+
+.insta-icon {
+  width: 24px;
+}
+
+.tiktok-icon {
+  width: 19px;
+}
+
+.footer-sns-icon {
+  vertical-align: middle;
+}
+
+.footer__content-bottom-wrapper page-width {
+  padding: 0;
+}
+
+.rich-text__text-top {
+  
+}
 
