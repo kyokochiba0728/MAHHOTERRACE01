@@ -99,29 +99,6 @@
         "show_text_below": true
       }
     },
-    "22ef847d-7dac-4b02-bec4-f01c821f6cc9": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16162154741927__22ef847d-7dac-4b02-bec4-f01c821f6cc9-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "施設で利用できるもの",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "template--16162154741927__22ef847d-7dac-4b02-bec4-f01c821f6cc9-heading-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 40
-      }
-    },
     "7d325fd7-cc66-48b8-8a04-c0ae1103da1f": {
       "type": "multicolumn",
       "blocks": {
@@ -273,7 +250,7 @@
         "color_scheme": "",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 28,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -384,8 +361,8 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 68,
-        "padding_bottom": 92
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -394,7 +371,6 @@
     "87f4f2e6-efba-4518-b331-c2ba0335cd96",
     "c7a99daf-6703-46d0-8174-e04c0350a4fc",
     "85381eb7-78e7-4031-95db-f5709d9ee7ce",
-    "22ef847d-7dac-4b02-bec4-f01c821f6cc9",
     "7d325fd7-cc66-48b8-8a04-c0ae1103da1f",
     "308150bf-454f-44b3-859c-51870ccaabd2"
   ]
