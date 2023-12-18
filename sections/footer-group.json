@@ -26,34 +26,19 @@
             "heading": "",
             "menu": "link-list"
           }
-        },
-        "11c6e03c-ce17-43cb-a815-ce51d96cb8e1": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "subtext": "<p>〒906-0012  沖縄県宮古島市平良宇西里１８２−３<\/p>"
-          }
-        },
-        "365ee723-5dd3-4d08-94a7-84bc61bfbf3a": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
         }
       },
       "block_order": [
         "c0a0fd70-3ad6-4255-b2b2-ea032393949a",
         "f9aae83a-c45c-4308-931d-600ab28de800",
-        "5c671453-30e0-488c-84bd-0bd26120d1f9",
-        "11c6e03c-ce17-43cb-a815-ce51d96cb8e1",
-        "365ee723-5dd3-4d08-94a7-84bc61bfbf3a"
+        "5c671453-30e0-488c-84bd-0bd26120d1f9"
       ],
       "settings": {
         "color_scheme": "inverse",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
-        "show_social": false,
+        "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
