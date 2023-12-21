@@ -355,7 +355,7 @@
         "heading": "F A Q",
         "heading_size": "h2",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
