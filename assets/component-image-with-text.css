@@ -365,11 +365,16 @@
 
 .image-with-text__heading {
   margin-bottom: 0;
+  font-size: 22px;
+  color: #4B4B4B;
+  letter-spacing: 2px;
 }
 
 .image-with-text__text p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 16px;
+  color: #4B4B4B;
 }
 
 @media screen and (max-width: 749px) {

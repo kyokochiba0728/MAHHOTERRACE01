@@ -122,10 +122,11 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
     padding: 0 5rem;
   }
 
+
+
   .header.page-width,
   .utility-bar__grid.page-width {
-    padding-left: 0;
-    padding-right: 0;
+
   }
 
   .page-width--narrow {
@@ -513,7 +514,7 @@ h6:empty {
   color: rgb(var(--color-link));
   background-color: transparent;
   font-size: 1.4rem;
-  font-family: inherit;
+  letter-spacing: 2px;
 }
 
 .announcement-message-text {
@@ -635,6 +636,7 @@ details > * {
 
 .multicolumn-text {
   font-size: 16px;
+  color: #4B4B4B;
 }
 
 .underlined-link,
@@ -2314,14 +2316,19 @@ product-info .loading__spinner:not(.hidden) ~ *,
   margin-bottom: 0.2rem;
 }
 
-
+@media screen and(min-width: 630px) {
+  
+}
 
 .announcement-bar__message  {
 	display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
 	transition: all .3s ease 0s;
 	text-decoration: none;
+  letter-spacing: 2px;
+  padding: 0 15px 0 15px;
+  line-height: 23px;
 }
 .announcement-bar__message:hover {
 	cursor: pointer;
@@ -2828,7 +2835,7 @@ details[open] > .header__submenu {
 .header__inline-menu {
   margin-left: -1.2rem;
   grid-area: navigation;
-  display: none;z
+  display: none;
 }
 
 .header--top-center .header__inline-menu,
@@ -2861,17 +2868,16 @@ details[open] > .header__submenu {
 
 .header__menu-item {
   text-decoration: none;
-  color: #4C4C4C;
+  color: #4B4B4B;
   font-size: 16px;
+  letter-spacing: 2px;
    min-height: 3.8rem;
   display: inline-block;
 	position: relative;
 
 }
 
-.list-menu--inline li {
-  padding: 10px;
-}
+
 
 .header__menu-item::after {
 	position: absolute;
@@ -2890,23 +2896,20 @@ details[open] > .header__submenu {
 	width: 100%;
 }
 
-.header__menu-item {
-  padding: 1.2rem;
-  text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
+.list-menu li {
+  padding: 0 12px 0 12px;
 }
 
 .header__menu-item:hover {
-  color: rgb(var(--color-foreground));
+
 }
 
 .header__menu-item span {
-  transition: text-decoration var(--duration-short) ease;
+
 }
 
 .header__menu-item:hover span {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+
 }
 
 details[open] > .header__menu-item {
@@ -2921,19 +2924,12 @@ details[open] > .header__menu-item .icon-caret {
   transform: rotate(180deg);
 }
 
-.header__active-menu-item {
-  transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
-}
 
 .header__menu-item:hover .header__active-menu-item {
-  text-decoration-thickness: 0.2rem;
+
 }
 
 .header__submenu {
-  transition: opacity var(--duration-default) ease, transform var(--duration-default) ease;
 }
 
 .global-settings-popup,
@@ -2984,6 +2980,7 @@ header-menu > details,
 details-disclosure > details {
   position: relative;
 }
+
 
 
 @keyframes animateMenuOpen {
@@ -3602,7 +3599,7 @@ details-disclosure > details {
 }
 
 .copy-text {
-  padding-top: 90px;
+  padding-top: 85px;
 }
 
 .h2 {
@@ -3624,7 +3621,8 @@ details-disclosure > details {
   font-size: 26px;
   text-align: center;
   margin: 0;
-  padding: 90px 0 70px 0;
+  padding: 85px 0 65px 0;
+  color: #4B4B4B;
 }
 
 
@@ -3663,3 +3661,204 @@ details-disclosure > details {
 .main-page-title page-title {
   font-size: 24px;
 }
+
+  /*宿泊予約ボタン*/
+  @media screen and (min-width: 990px){
+    .btn-booking {
+    width: 185px;
+    height: 60px;
+    margin-right: 16px;
+    color:#fff;
+    border-radius:50px;
+    text-decoration: none;
+    outline: none;
+    background: linear-gradient(90deg, hsla(181, 100%, 34%, 1) 0%, hsla(156, 50%, 79%, 1) 100%);
+    background-position: 1% 50%;
+    background-size: 200% auto;
+    transition: all 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-booking:hover {
+    color: #fff;
+    opacity: 0.8;
+    
+}
+
+.btn-booking span {
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 1px 0 0 3px;
+
+}
+
+
+  }
+ 
+  /*お問い合わせボタン*/
+  @media screen and (min-width: 990px){
+   .outer-button-contact {
+  width: 185px;
+  height: 60px;
+  background:  linear-gradient(90deg, hsla(181, 100%, 34%, 1) 0%, hsla(156, 50%, 79%, 1) 100%);
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .inner-button-contact {
+    width: 180px;
+    height: 55px;
+    background: #ffff;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-contact  {
+  text-decoration: none;
+  background-position: 1% 50%;
+  background-size: 200% auto;
+  transition: all 0.3s ease-out;
+  background: linear-gradient(90deg, hsla(181, 100%, 34%, 1) 0%, hsla(156, 60%, 80%, 1) 100%);
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btn-contact span {
+  letter-spacing: 2px;
+  color: #00A9AC;
+  font-size: 16px;
+  padding: 1px 0 0 3px;
+}
+
+}
+
+
+.btn-contact:hover {
+  background-position: 1% 50%;
+  background-size: 200% auto;
+  color:#00A9AC; 
+  opacity: 0.6; 
+  transition: all 0.3s ease-out;
+}
+
+
+
+  @media screen and (max-width: 990px) {
+    .btn-booking  {
+      display: none;
+    }
+    .btn-contact {
+      display: none;
+    }
+  }
+
+
+  .drawer-btn {
+    text-align: center;
+  }
+
+  /*ドロワー宿泊予約ボタン*/
+  .drawer-btn-booking {
+    width: 185px;
+    height: 60px;
+    margin-right: 16px;
+    color:#fff;
+    border-radius:50px;
+    text-decoration: none;
+    outline: none;
+    background: linear-gradient(90deg, hsla(181, 100%, 34%, 1) 0%, hsla(156, 50%, 79%, 1) 100%);
+    background-position: 1% 50%;
+    background-size: 200% auto;
+    transition: all 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 20px auto;
+}
+
+  .drawer-btn-booking:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.drawer-btn-booking span {
+  font-size: 16px;
+  padding: 1px 0 0 3px;
+  
+}
+
+  /*ドロワーお問い合わせボタン*/
+
+  .drawer-outer-button-contact {
+    width: 185px;
+    height: 60px;
+    background:  linear-gradient(90deg, hsla(181, 100%, 34%, 1) 0%, hsla(156, 50%, 79%, 1) 100%);
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+    .drawer-inner-button-contact {
+      width: 180px;
+      height: 55px;
+      background: #ffff;
+      border-radius: 9999px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  
+  .drawer-btn-contact  {
+    text-decoration: none;
+    background-position: 1% 50%;
+    background-size: 200% auto;
+    transition: all 0.3s ease-out;
+    color: #00A9AC;
+    font-size: 16px;
+    background: linear-gradient(90deg, hsla(181, 100%, 34%, 1) 0%, hsla(156, 60%, 80%, 1) 100%);
+    border-radius: 9999px;
+    align-items: center;
+  }
+
+  .drawer-btn-contact:hover {
+    background-position: 1% 50%;
+    background-size: 200% auto;
+    color:#00A9AC; 
+    opacity: 0.6; 
+    transition: all 0.3s ease-out;
+  }
+
+  .drawer-btn-contact span {
+    padding: 1px 0 0 3px;
+  }
+
+
+  .rich-text__heading {
+    font-size: 22px;
+    color: #4B4B4B;
+    letter-spacing: 2px;
+  }
+
+  .rich-text__text {
+    font-size: 16px;
+    color: #4B4B4B;
+    letter-spacing: 2px;
+
+  }
+
+
+
+

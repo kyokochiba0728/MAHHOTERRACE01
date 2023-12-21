@@ -58,8 +58,9 @@
 
 
 .collapsible-content__heading  {
-  padding: 90px 0 70px 0;
+  padding: 85px 0 65px 0;
   font-size: 26px;
+  color: #4B4B4B ;
 }
 
 
@@ -92,10 +93,12 @@
 .collapsible-row-layout .accordion summary,
 .collapsible-row-layout .accordion .accordion__content {
   padding: 1.5rem;
+
 }
 
 .collapsible-row-layout .accordion .accordion__content {
   padding-top: 0;
+  
 }
 
 .collapsible-content summary:hover {
@@ -103,8 +106,7 @@
 }
 
 .collapsible-content summary:hover .accordion__title {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  text-decoration: none;
 }
 
 /* check for flexbox gap in older Safari versions */
@@ -123,4 +125,10 @@
       padding-left: 7rem;
     }
   }
+}
+
+.accordion__title {
+  font-size: 16px;
+  color: #4B4B4B;
+  letter-spacing: 2px;
 }

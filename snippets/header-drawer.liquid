@@ -6,6 +6,8 @@
 {% endcomment %}
 
 <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
+
+
   <details id="Details-menu-drawer-container" class="menu-drawer-container">
     <summary
       class="header__icon header__icon--menu header__icon--summary link focus-inset"
@@ -16,6 +18,7 @@
         {% render 'icon-close' %}
       </span>
     </summary>
+
     <div id="menu-drawer" class="gradient menu-drawer motion-reduce color-{{ section.settings.menu_color_scheme }}">
       <div class="menu-drawer__inner-container">
         <div class="menu-drawer__navigation-container">
@@ -85,6 +88,7 @@
                                       >
                                         {%- for grandchildlink in childlink.links -%}
                                           <li>
+                                            
                                             <a
                                               id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
                                               href="{{ grandchildlink.url }}"
@@ -122,6 +126,18 @@
                 </li>
               {%- endfor -%}
             </ul>
+            <div class="drawer-btn">
+              <a href="pages/特定商取引法に基づく表記-宿泊予約" class="drawer-btn-booking"><span>宿泊予約</span></a>
+              <a href="/pages/contact" class='drawer-btn-contact'>
+                  <div class="drawer-outer-button-contact">
+                    <div class='drawer-inner-button-contact' >
+                      <span >お問い合わせ</span>
+                    </div>
+                  </div>
+               </a> 
+
+            </div>
+
           </nav>
           <div class="menu-drawer__utility-links">
             {%- if shop.customer_accounts_enabled -%}
@@ -307,5 +323,6 @@
         </div>
       </div>
     </div>
+  
   </details>
 </header-drawer>

@@ -115,79 +115,6 @@
     }
   }
 
-  /*宿泊予約ボタン*/
-  @media screen and (min-width: 990px){
-    .btn-booking {
-    width: 175px;
-    height: 54px;
-    padding-top: 13px;
-    text-align: center;
-    margin-right: 16px;
-    display: inline-block;
-    color:#fff;
-    border-radius:50px;
-    text-decoration: none;
-    outline: none;
-    background: linear-gradient(270deg,  #006F98 51%, #11C1CE 100%);
-    background-position: 1% 50%;
-    background-size: 200% auto;
-    transition: all 0.3s ease-out;
-}
-
-.btn-booking:hover {
-    color: #fff;
-    opacity: 0.8;
-    
-}
-
-.btn-booking span {
-  font-size: 16px;
-  padding-left: 8px;
-}
-
-
-  }
- 
-  /*お問い合わせボタン*/
-  @media screen and (min-width: 990px){
-    .btn-contact {
-    /*ボタンの形状*/
-    width: 175px;
-    height: 54px;
-    padding-top: 12px;
-    border:2px solid #006F98;
-    color: #006F98 ;
-    text-align: center;
-    display: inline-block;
-    border-radius:50px;
-    text-decoration: none;
-    outline: none;
-
-    /*背景の色と形状*/
-    /*アニメーションの指定*/
-    transition: all 0.3s ease-out;
-}
-
-/*hoverした際の、背景の場所とテキスト色の変更*/
-.btn-contact:hover {
-    /*ボタンの形状*/
-    opacity: 0.5;
-
-}
-
-.btn-contact span {
-  font-size: 16px;
-  padding-left: 8px;
-  
-}
-  }
-
-  @media screen and (max-width: 990px) {
-  .btn-booking span, .btn-contact span {
-    display: none;
-  }
-}
-
 
 
 {%- endstyle -%}
@@ -402,9 +329,15 @@
         {%- endcase -%}
       {%- endfor -%}
 
-      <a href="" class="btn btn-booking"><span>宿泊予約</span></a>
-      <a href="" class="btn btn-contact"><span>お問い合わせ</span></a>
-      
+      <a href="pages/特定商取引法に基づく表記-宿泊予約" class="btn btn-booking"><span>宿泊予約</span></a>
+      <a href="/pages/contact" class='btn-contact'>
+            <div class="outer-button-contact">
+              <div class='inner-button-contact' >
+                <span >お問い合わせ</span>
+              </div>
+            </div>
+      </a>     
+
 
     {% comment %}
         

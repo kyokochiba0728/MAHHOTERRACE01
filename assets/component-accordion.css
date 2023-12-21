@@ -53,6 +53,13 @@
   padding: 0 0.6rem;
 }
 
+.accordion__content p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #4B4B4B ;
+
+}
+
 .accordion__content img {
   max-width: 100%;
 }
