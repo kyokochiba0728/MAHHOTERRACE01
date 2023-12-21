@@ -125,7 +125,7 @@
         "e0af683a-59de-42fe-9e7f-006ea0483110": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wifi_line.svg",
+            "image": "shopify:\/\/shop_images\/wifi.svg",
             "title": "WIFI",
             "text": "",
             "link_label": "",
@@ -135,7 +135,7 @@
         "96b9d398-71e5-4389-afed-373bce688dba": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sofa_line.svg",
+            "image": "shopify:\/\/shop_images\/living.svg",
             "title": "リビング",
             "text": "",
             "link_label": "",
@@ -145,7 +145,7 @@
         "b9b4ba43-1263-4d36-9e83-0db4e22bbb95": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fork_spoon_line.svg",
+            "image": "shopify:\/\/shop_images\/kitchen.svg",
             "title": "キッチン",
             "text": "",
             "link_label": "",
