@@ -115,7 +115,7 @@
         "template--16142776041639__7d325fd7-cc66-48b8-8a04-c0ae1103da1f-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/plugin_line.svg",
+            "image": "shopify:\/\/shop_images\/cowork.svg",
             "title": "コワーキング",
             "text": "",
             "link_label": "",
@@ -155,7 +155,7 @@
         "89e9077b-85ae-462d-9fc6-27cdb018e6ef": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tv_2_line.svg",
+            "image": "shopify:\/\/shop_images\/tv.svg",
             "title": "TV",
             "text": "",
             "link_label": "",
@@ -165,7 +165,7 @@
         "a61437ec-973a-47a7-a16a-ade6a1bd1d58": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shower_FILL0_wght400_GRAD0_opsz24.svg",
+            "image": "shopify:\/\/shop_images\/shower.svg",
             "title": "シャワー",
             "text": "",
             "link_label": "",
@@ -175,7 +175,7 @@
         "036b1628-5a03-426d-8b03-c1fd796d348c": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bath_line.svg",
+            "image": "shopify:\/\/shop_images\/bath.svg",
             "title": "バスタブ",
             "text": "",
             "link_label": "",
@@ -185,7 +185,7 @@
         "8fb5c8e0-27de-4fc9-a7ab-d6ffa6331ece": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hairdryer.svg",
+            "image": "shopify:\/\/shop_images\/hairdryer_7059318e-a6a9-4123-b9f3-3ab5c9df5b8c.svg",
             "title": "ドライヤー",
             "text": "",
             "link_label": "",
@@ -195,7 +195,7 @@
         "ce36d5f5-bf70-4270-8392-8f5cf63aab36": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kitchen_FILL0_wght400_GRAD0_opsz24.svg",
+            "image": "shopify:\/\/shop_images\/refrigerator.svg",
             "title": "冷蔵庫",
             "text": "",
             "link_label": "",
@@ -205,7 +205,7 @@
         "48f995cf-c95a-4c24-8b8f-5e782ed97f9e": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wash_machine_line.svg",
+            "image": "shopify:\/\/shop_images\/wash_machine.svg",
             "title": "洗濯・乾燥機",
             "text": "",
             "link_label": "",
@@ -215,7 +215,7 @@
         "1d0614aa-35c4-40b6-9441-9a5f37ab348d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/parking_line.svg",
+            "image": "shopify:\/\/shop_images\/parking.svg",
             "title": "駐車場",
             "text": "",
             "link_label": "",
