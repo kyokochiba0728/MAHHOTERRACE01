@@ -103,7 +103,7 @@
       ],
       "custom_css": [
         ".cover-link {display: block; width: 100vw; height: 100%; position: absolute; top: 0; z-index: 2; background-position: 1% 50%; background-size: 200% auto; transition: all 0.8s ease-out;}",
-        ".cover-link:hover {background: #ffff; opacity: 0.3;}"
+        ".cover-link:hover {background: #ffff; opacity: 0.2;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/mahotera-insta-banner_1433f667-2ab3-4692-8c97-da0cc0082d60.png",
