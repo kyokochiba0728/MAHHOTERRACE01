@@ -2324,9 +2324,6 @@ product-info .loading__spinner:not(.hidden) ~ *,
   margin-bottom: 0.2rem;
 }
 
-@media screen and(min-width: 630px) {
-  
-}
 
 .announcement-bar__message  {
 	display: inline-block;
@@ -2338,6 +2335,13 @@ product-info .loading__spinner:not(.hidden) ~ *,
   padding: 0 15px 0 15px;
   line-height: 23px;
 }
+
+@media screen and (max-width: 500px) {
+  .announcement-bar__message  {
+    font-size: 15px;
+  }
+}
+
 .announcement-bar__message:hover {
 	cursor: pointer;
 	transform: scale(1.1);
