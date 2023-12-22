@@ -101,6 +101,10 @@
       "block_order": [
         "d86fdd43-6f45-4e56-ae82-5434400249e6"
       ],
+      "custom_css": [
+        ".cover-link {display: block; width: 100vw; height: 100%; position: absolute; top: 0; z-index: 2;}",
+        ".cover-link:hover {background: #FFFF; opacity: 0.3;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/mahotera-insta-banner_1433f667-2ab3-4692-8c97-da0cc0082d60.png",
         "image_overlay_opacity": 0,
