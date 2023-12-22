@@ -85,6 +85,22 @@
     },
     "85381eb7-78e7-4031-95db-f5709d9ee7ce": {
       "type": "image-banner",
+      "blocks": {
+        "d86fdd43-6f45-4e56-ae82-5434400249e6": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "https:\/\/www.instagram.com\/mahhoterrace\/",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "d86fdd43-6f45-4e56-ae82-5434400249e6"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/mahotera-insta-banner_1433f667-2ab3-4692-8c97-da0cc0082d60.png",
         "image_overlay_opacity": 0,
