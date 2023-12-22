@@ -637,6 +637,7 @@ details > * {
 .multicolumn-text {
   font-size: 16px;
   color: #4B4B4B;
+  letter-spacing: 2px;
 }
 
 .underlined-link,
@@ -3617,18 +3618,26 @@ details-disclosure > details {
 
 }
 
+.cover-link:hover {
+  color: #fff;
+
+}
+
+
+
 .multicolumn-tittle p {
   font-size: 26px;
   text-align: center;
   margin: 0;
   padding: 85px 0 65px 0;
   color: #4B4B4B;
+  letter-spacing: 2px;
 }
 
 
 @media screen and (min-width: 750px){
   .column-width   {
-    padding: 0 90px 0 90px;
+    padding: 0 100px 0 100px;
   }
 
 }
@@ -3693,6 +3702,7 @@ details-disclosure > details {
   padding: 1px 0 0 3px;
 
 }
+
 
 
   }
@@ -3861,4 +3871,4 @@ details-disclosure > details {
 
 
 
-
+ 

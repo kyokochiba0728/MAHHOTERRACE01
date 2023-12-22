@@ -375,6 +375,7 @@
   margin-bottom: 1rem;
   font-size: 16px;
   color: #4B4B4B;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 749px) {
