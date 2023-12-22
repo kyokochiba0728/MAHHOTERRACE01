@@ -25,19 +25,31 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 355px; 
-  max-height: 355px; 
+  max-width: 370px; 
+  max-height: 370px; 
 }
 
 .video-text {
   position: absolute;
-  top: 62%; /* ロゴの下部に配置するための位置を調整 */
+  top: 66%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white; /* テキストの色 */
-  font-size: 25px; /* テキストのサイズ */
-  text-align: center; /* 中央揃え */
-  /* 必要に応じて他のスタイルを追加 */
+  color: white;
+  font-size: 25px; 
+  margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .video-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 22px; 
+  margin: 0;
+}
+
 }
 
 {%- endstyle -%}

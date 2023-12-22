@@ -330,11 +330,26 @@
   word-break: break-word;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (max-width: 1200px) {
   .image-with-text__content {
-    padding: 6rem 7rem 7rem;
+    padding: 4rem 0rem 7rem 5rem;
   }
 }
+
+@media screen and (max-width: 1105px) {
+  .image-with-text__content {
+    padding: 0rem 0rem 0rem 5rem;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .image-with-text__content {
+    padding: 6rem 1.5rem 6rem 1.5rem;
+  }
+}
+
+
+
 
 .image-with-text__content > * + * {
   margin-top: 2rem;
