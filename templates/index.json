@@ -119,6 +119,42 @@
         "show_text_below": true
       }
     },
+    "b9f9dbbc-9fb8-47cb-bc87-d796bbc655cd": {
+      "type": "image-banner-mobile",
+      "blocks": {
+        "ba2dc077-f59f-4ebb-919c-62690542f6a8": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "https:\/\/www.instagram.com\/mahhoterrace\/",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "ba2dc077-f59f-4ebb-919c-62690542f6a8"
+      ],
+      "custom_css": [
+        ".cover-link {display: block; width: 100vw; height: 100%; position: absolute; top: 0; z-index: 2; background-position: 1% 50%; background-size: 200% auto; transition: all 0.7s ease-out;}",
+        ".cover-link:hover {background: #ffff; opacity: 0.3;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cfbanner.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "7d325fd7-cc66-48b8-8a04-c0ae1103da1f": {
       "type": "multicolumn",
       "blocks": {
@@ -384,22 +420,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "b9f9dbbc-9fb8-47cb-bc87-d796bbc655cd": {
-      "type": "image-banner-mobile",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/cfbanner.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -407,8 +427,8 @@
     "87f4f2e6-efba-4518-b331-c2ba0335cd96",
     "c7a99daf-6703-46d0-8174-e04c0350a4fc",
     "85381eb7-78e7-4031-95db-f5709d9ee7ce",
+    "b9f9dbbc-9fb8-47cb-bc87-d796bbc655cd",
     "7d325fd7-cc66-48b8-8a04-c0ae1103da1f",
-    "308150bf-454f-44b3-859c-51870ccaabd2",
-    "b9f9dbbc-9fb8-47cb-bc87-d796bbc655cd"
+    "308150bf-454f-44b3-859c-51870ccaabd2"
   ]
 }
