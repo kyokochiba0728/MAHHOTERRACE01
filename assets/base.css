@@ -2338,10 +2338,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .announcement-bar__message:hover {
   opacity: 0.6;
+  
 }
-
-
-
 
 
 .announcement-bar-slider--fade-in-next .announcement-bar__message,

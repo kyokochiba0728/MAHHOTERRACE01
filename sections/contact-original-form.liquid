@@ -47,10 +47,10 @@
         </ul>
       {%- endif -%}
 
-        <label for="about">お名前</label>
+        <label for="about">お名前＊</label>
         <div class="field">
-          <input
-            class="field__input"
+          <input required 
+            class="field__input required"
             autocomplete="name"
             type="text"
             id="ContactForm-name"
@@ -59,12 +59,12 @@
             placeholder="{{ 'templates.contact.form.name' | t }}"
           >
         </div>
-        <label for="about">メールアドレス</label>
+        <label for="about">メールアドレス＊</label>
         <div class="field">
-          <input
+          <input  required 
             type="tel"
             id="ContactForm-phone"
-            class="field__input"
+            class="field__input required "
             autocomplete="tel"
             name="contact[{{ 'templates.contact.form.phone' | t }}]"
             pattern="[0-9\-]*"
@@ -89,7 +89,8 @@
         >
 
       </div>
-      <label for="about">お問い合わせ目的</label>
+      {% comment %}
+            <label for="about">お問い合わせ目的</label>
         <select  class="field select-field" autocomplete="contact[お問い合わせ内容]">
             <option>選択してください</option>
             <option>長期・短期滞在プランについて</option>
@@ -98,14 +99,15 @@
             <option>コワーキングについて</option>
             <option>カフェについて</option>
             <option>その他</option>
-        </select>
-
-      <label for="about">メールアドレス</label>
+        </select> 
+      {% endcomment %}
+      <label for="about">お問い合わせ内容＊</label>
         <div class="field">
-          <textarea
+          <textarea 
+            required 
             rows="10"
             id="ContactForm-body"
-            class="text-area field__input"
+            class="text-area field__input required"
             name="contact[{{ 'templates.contact.form.comment' | t }}]"
             placeholder="{{ 'templates.contact.form.comment' | t }}"
           >
