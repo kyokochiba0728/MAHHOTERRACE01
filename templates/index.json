@@ -119,6 +119,24 @@
         "show_text_below": true
       }
     },
+    "f2983b13-efce-449d-9251-64c06787cbad": {
+      "type": "mobele-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_25_3943015a-b0e8-42d4-8ac0-22c2fd6f540c.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "7d325fd7-cc66-48b8-8a04-c0ae1103da1f": {
       "type": "multicolumn",
       "blocks": {
@@ -384,24 +402,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "f2983b13-efce-449d-9251-64c06787cbad": {
-      "type": "mobele-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_25_3943015a-b0e8-42d4-8ac0-22c2fd6f540c.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -409,8 +409,8 @@
     "87f4f2e6-efba-4518-b331-c2ba0335cd96",
     "c7a99daf-6703-46d0-8174-e04c0350a4fc",
     "85381eb7-78e7-4031-95db-f5709d9ee7ce",
+    "f2983b13-efce-449d-9251-64c06787cbad",
     "7d325fd7-cc66-48b8-8a04-c0ae1103da1f",
-    "308150bf-454f-44b3-859c-51870ccaabd2",
-    "f2983b13-efce-449d-9251-64c06787cbad"
+    "308150bf-454f-44b3-859c-51870ccaabd2"
   ]
 }
