@@ -521,6 +521,11 @@
   color: #ffff;
   padding: 90px 90px 0 0;
   margin: 0;
+}
 
-
+@media screen and (max-width: 750px) {
+  .footer-address {
+    color: #ffff;
+    padding: 60px 90px 0 0;
+  }
 }
