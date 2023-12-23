@@ -3913,4 +3913,6 @@ details-disclosure > details {
      }
    }
 
- 
+ .field__label {
+  color: #C7C7C7;
+ }

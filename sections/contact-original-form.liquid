@@ -60,21 +60,35 @@
           >
         </div>
         <label for="about">メールアドレス＊</label>
-        <div class="field">
-          <input  required 
-            type="tel"
-            id="ContactForm-phone"
+        <div class="field field--with-error">
+          <input required 
+            autocomplete="email"
+            type="email"
+            id="ContactForm-email"
             class="field__input required "
-            autocomplete="tel"
-            name="contact[{{ 'templates.contact.form.phone' | t }}]"
-            pattern="[0-9\-]*"
-            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
-            placeholder="{{ 'templates.contact.form.phone' | t }}"
+            name="contact[email]"
+            spellcheck="false"
+            autocapitalize="off"
+            value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+            aria-required="true"
+            {% if form.errors contains 'email' %}
+              aria-invalid="true"
+              aria-describedby="ContactForm-email-error"
+            {% endif %}
+            placeholder="{{ 'templates.contact.form.email' | t }}"
           >
-  
+
+          {%- if form.errors contains 'email' -%}
+            <small class="contact__field-error" id="ContactForm-email-error">
+              <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+              <span class="form__message">
+                {%- render 'icon-error' -%}
+                {{- form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email -}}
+              </span>
+            </small>
+          {%- endif -%}
         </div>
-
-
       <label for="about">電話番号</label>
       <div class="field">
         <input
@@ -114,7 +128,7 @@
             {{- form.body -}}
           </textarea>
           <label class="form__label field__label" for="ContactForm-body">
-            {{- 'templates.contact.form.comment' | t -}}
+            お問い合わせ内容を入力してください
           </label>
         </div>
       <div class="contact__button">
