@@ -3684,8 +3684,8 @@ details-disclosure > details {
   z-index: -1;
 }
 
-.main-page-title page-title {
-  font-size: 24px;
+.main-page-title span {
+  font-size: 30px;
 }
 
   /*宿泊予約ボタン*/
