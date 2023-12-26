@@ -122,6 +122,7 @@
     "f2983b13-efce-449d-9251-64c06787cbad": {
       "type": "mobele-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/mahotera-mobile-banner.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
