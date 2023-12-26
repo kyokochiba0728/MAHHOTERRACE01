@@ -106,7 +106,7 @@
         ".cover-link:hover {background: #ffff; opacity: 0.3;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/mahotera-insta-banner_2daadfc0-8dda-4339-a38d-e728c32a0841.png",
+        "image": "shopify:\/\/shop_images\/mahotera-insta-banner.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -122,7 +122,6 @@
     "f2983b13-efce-449d-9251-64c06787cbad": {
       "type": "mobele-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/mahotera-mobile-banner_8dc36808-171c-48c2-a69a-6f12ae69036e.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
