@@ -295,6 +295,15 @@
     "308150bf-454f-44b3-859c-51870ccaabd2": {
       "type": "collapsible-content",
       "blocks": {
+        "09f83b66-94e0-4a04-9303-040b41c80833": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q.予約はどこからできますか？",
+            "icon": "none",
+            "row_content": "<p><a href=\"https:\/\/mahhoterrace.com\/#shopify-section-template--16162154741927__308150bf-454f-44b3-859c-51870ccaabd2\" title=\"https:\/\/mahhoterrace.com\/#shopify-section-template--16162154741927__308150bf-454f-44b3-859c-51870ccaabd2\">ここ<\/a>からお願いします<\/p>",
+            "page": ""
+          }
+        },
         "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
@@ -375,18 +384,10 @@
             "row_content": "<p>A. 長期・短期滞在者向けプランにご用意があります。   詳細は<a href=\"\/pages\/contact\" title=\"お問い合わせ\">お問い合わせ<\/a>よりご連絡ください。<\/p>",
             "page": ""
           }
-        },
-        "09f83b66-94e0-4a04-9303-040b41c80833": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Q.予約はどこからできますか？",
-            "icon": "none",
-            "row_content": "<p><a href=\"https:\/\/mahhoterrace.com\/#shopify-section-template--16162154741927__308150bf-454f-44b3-859c-51870ccaabd2\" title=\"https:\/\/mahhoterrace.com\/#shopify-section-template--16162154741927__308150bf-454f-44b3-859c-51870ccaabd2\">ここ<\/a>からお願いします<\/p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
+        "09f83b66-94e0-4a04-9303-040b41c80833",
         "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-1",
         "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-2",
         "template--16142776041639__308150bf-454f-44b3-859c-51870ccaabd2-collapsible_row-3",
@@ -395,8 +396,7 @@
         "56599190-e75e-4c69-a9d0-8b3ad2e11113",
         "8e0d15a6-d40e-4892-bd62-32ad099fffe0",
         "b7e7b56c-9b6b-4c2d-a057-576b54ad103e",
-        "01594a95-a40c-4523-9d38-13def265a258",
-        "09f83b66-94e0-4a04-9303-040b41c80833"
+        "01594a95-a40c-4523-9d38-13def265a258"
       ],
       "settings": {
         "caption": "",
