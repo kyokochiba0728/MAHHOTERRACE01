@@ -47,18 +47,23 @@
         </ul>
       {%- endif -%}
 
-        <label for="about">お名前＊</label>
-        <div class="field">
-          <input required 
-            class="field__input required"
-            autocomplete="name"
-            type="text"
-            id="ContactForm-name"
-            name="contact[{{ 'templates.contact.form.name' | t }}]"
-            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
-            placeholder="{{ 'templates.contact.form.name' | t }}"
-          >
-        </div>
+          <label for="about">お名前＊</label>
+          <div class="field">
+            <input required 
+              class="field__input required"
+              autocomplete="name"
+              type="text"
+              id="ContactForm-name"
+              name="contact[{{ 'templates.contact.form.name' | t }}]"
+              value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+              placeholder="{{ 'templates.contact.form.name' | t }}"
+            >
+            <label class="form__label field__label" for="ContactForm-body">
+              山田太郎
+            </label>
+          </div>
+          
+
         <label for="about">メールアドレス＊</label>
         <div class="field field--with-error">
           <input required 
@@ -88,6 +93,9 @@
               </span>
             </small>
           {%- endif -%}
+          <label class="form__label field__label" for="ContactForm-body">
+            yamadataro@mahotera.com
+          </label>
         </div>
       <label for="about">電話番号</label>
       <div class="field">
@@ -101,8 +109,19 @@
           value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
           placeholder="{{ 'templates.contact.form.phone' | t }}"
         >
-
+        <label class="form__label field__label" for="ContactForm-body">
+          080-1234-5678
+        </label>
       </div>
+
+      <div class="contact-choice">
+        <label for="test">お問い合わせ内容</label>
+        <br><label class="contact-check"><input type="checkbox" id="test" name="contact[チェックボックスの項目1]" value="選択1">宿泊予約について</label>
+        <br><label class="contact-check"><input type="checkbox" id="test" name="contact[チェックボックスの項目2]" value="選択2">長期・短期滞在プランについて</label>
+        <br><label class="contact-check"><input type="checkbox" id="test" name="contact[チェックボックスの項目3]" value="選択3">送迎について</label>
+        <br><label class="contact-check"><input type="checkbox" id="test" name="contact[チェックボックスの項目4]" value="選択4">その他</label>
+      </div>
+
       {% comment %}
             <label for="about">お問い合わせ目的</label>
         <select  class="field select-field" autocomplete="contact[お問い合わせ内容]">
@@ -115,7 +134,7 @@
             <option>その他</option>
         </select> 
       {% endcomment %}
-      <label for="about">お問い合わせ内容＊</label>
+      <br><label for="about">お問い合わせ内容＊</label>
         <div class="field">
           <textarea 
             required 
