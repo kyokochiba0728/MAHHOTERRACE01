@@ -300,7 +300,7 @@
           "settings": {
             "heading": "Q.予約はどこからできますか？",
             "icon": "none",
-            "row_content": "<p><a href=\"\/pages\/contact\" title=\"お問い合わせ\">お問い合わせ<\/a>からお願いします<\/p>",
+            "row_content": "<p><a href=\"\/pages\/contact\" title=\"お問い合わせ\">お問い合わせ<\/a>お願いいたしします<\/p>",
             "page": ""
           }
         },
