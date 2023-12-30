@@ -300,7 +300,7 @@
           "settings": {
             "heading": "Q.予約はどこからできますか？",
             "icon": "none",
-            "row_content": "<p><a href=\"https:\/\/mahhoterrace.com\/#shopify-section-template--16162154741927__308150bf-454f-44b3-859c-51870ccaabd2\" title=\"https:\/\/mahhoterrace.com\/#shopify-section-template--16162154741927__308150bf-454f-44b3-859c-51870ccaabd2\">ここ<\/a>からお願いします<\/p>",
+            "row_content": "<p><a href=\"\/pages\/contact\" title=\"お問い合わせ\">お問い合わせ<\/a>からお願いします<\/p>",
             "page": ""
           }
         },
