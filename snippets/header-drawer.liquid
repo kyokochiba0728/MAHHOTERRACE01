@@ -126,17 +126,22 @@
                 </li>
               {%- endfor -%}
             </ul>
-            <div class="drawer-btn">
-              <a href="pages/特定商取引法に基づく表記-宿泊予約" class="drawer-btn-booking"><span>宿泊予約</span></a>
-              <a href="/pages/contact" class='drawer-btn-contact'>
-                  <div class="drawer-outer-button-contact">
-                    <div class='drawer-inner-button-contact' >
-                      <span >お問い合わせ</span>
-                    </div>
-                  </div>
-               </a> 
 
-            </div>
+            <a href="/pages/contact" class="drawer-btn-booking"><span>お問い合わせ</span></a>
+
+            {% comment %}
+                <div class="drawer-btn">
+                  <a href="/pages/予約" class="drawer-btn-booking"><span>宿泊予約</span></a>
+                  <a href="/pages/contact" class='drawer-btn-contact'>
+                      <div class="drawer-outer-button-contact">
+                        <div class='drawer-inner-button-contact' >
+                          <span >お問い合わせ</span>
+                        </div>
+                      </div>
+                  </a> 
+                </div>                
+            {% endcomment %}
+
 
           </nav>
           <div class="menu-drawer__utility-links">

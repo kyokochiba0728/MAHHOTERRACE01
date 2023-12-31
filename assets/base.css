@@ -3715,7 +3715,6 @@ details-disclosure > details {
     align-items: center;
 }
 
-
 .btn-booking-demo:hover {
     color: #fff;
     opacity: 0.8;
@@ -3729,6 +3728,12 @@ details-disclosure > details {
 }
   }
  
+  @media screen and (max-width: 990px) {
+    .btn-booking-demo  {
+      display: none;
+    }
+  }
+
 
 
 
@@ -3765,6 +3770,8 @@ details-disclosure > details {
   padding: 1px 0 0 3px;
 }
   }
+
+
  
   /*お問い合わせボタン*/
   @media screen and (min-width: 990px){
