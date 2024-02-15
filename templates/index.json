@@ -56,7 +56,7 @@
         "template--16142776041639__c7a99daf-6703-46d0-8174-e04c0350a4fc-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "応援する",
+            "button_label": "支援サイトへ",
             "button_link": "https:\/\/readyfor.jp\/projects\/mahotera",
             "button_style_secondary": false
           }
